@@ -1,0 +1,19 @@
+{
+  "languages": [
+    {
+      "id": "csharp",
+      "name": "C#",
+      "extension": "cs",
+      "imagename": "mono",
+      "compile": "mcs %BASENAME%.cs",
+      "run": "mono %BASENAME%.exe"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "extension": "py",
+      "imagename": "python",
+      "run": "python %BASENAME%.py"
+    }
+  ]
+}
