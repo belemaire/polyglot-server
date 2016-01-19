@@ -1,0 +1,19 @@
+{
+  "name": "polyglot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "polyglot.js",
+  "dependencies": {
+    "express": "4.13.3",
+    "socket.io": "1.3.7",
+    "underscore": "1.8.3",
+    "body-parser": "1.14.1",
+    "socket.io": "1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benoit Lemaire",
+  "license": "Apache Version 2.0"
+}

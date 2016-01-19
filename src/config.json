@@ -1,0 +1,32 @@
+{
+  "languages": [
+    {
+      "id": "csharp",
+      "name": "C#",
+      "extension": "cs",
+      "imagename": "mono",
+      "compile": "mcs %BASENAME%.cs",
+      "run": "mono %BASENAME%.exe",
+      "codeSampleFileName": "HelloWorld.cs"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "extension": "py",
+      "imagename": "python",
+      "run": "python %BASENAME%.py",
+      "codeSampleFileName": "HelloWorld.py"
+    },
+    {
+      "id": "haskell",
+      "name": "Haskell",
+      "extension": "hs",
+      "imagename": "haskell",
+      "compile": "ghc -o %BASENAME% %BASENAME%.hs",
+      "run": "./%BASENAME%",
+      "repl": "ghci",
+      "replPrefix": "Prelude> ",
+      "codeSampleFileName": "HelloWorld.hs"
+    }
+  ]
+}
